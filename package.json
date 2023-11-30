@@ -5,6 +5,8 @@
   "scripts": {
     "build": "gulp style",
     "dev": "gulp watch",
+    "docker:build": "scripts/docker build",
+    "docker:push": "scripts/docker push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,5 +21,8 @@
     "postcss": "^8.1.14",
     "slick-carousel": "^1.8.1",
     "tailwindcss": "^2.0.1"
+  },
+  "docker": {
+    "registry": "ghcr.io/modernweb-pl"
   }
 }
