@@ -1,2 +1,8 @@
-# KasokuRenovation
-Strona KasokuRenovation
+# Kasoku Renovation
+
+## Development
+
+```shell
+npm install
+npm run dev
+```
